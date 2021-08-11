@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './Font/euro_technic_extended_regular.ttf';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

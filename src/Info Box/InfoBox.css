@@ -1,0 +1,54 @@
+.infobox_wrap {
+  padding: 175px 175px 0px 175px;
+  color: white;
+  font-family: EuroTech;
+}
+.infobox_title span {
+  font-size: 50px;
+  font-weight: bold;
+}
+.infobox_title {
+  padding-bottom: 20px;
+}
+.infobox_desc p {
+  font-size: 10px;
+  padding-right: 500px;
+  line-height: 1.8;
+  padding-bottom: 40px;
+}
+.infobox_buttons {
+  display: flex;
+  align-items: center;
+
+  padding-top: 10px;
+}
+.the_buttons {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #31313d, #5b5b65);
+  border: none;
+  color: white;
+  font-size: 11px;
+  border-width: 1px;
+  padding: 10px 25px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.image_icon {
+  width: 25px;
+  padding-right: 5px;
+}
+.image_icon_swap {
+  padding-right: 5px;
+  width: 14px;
+}
+#buy_button {
+  padding: 20px 25px;
+  background-image: linear-gradient(to right, #7f6649, #87638a);
+}
+.the_buttons:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}

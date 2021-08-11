@@ -1,0 +1,37 @@
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icons {
+  padding: 10px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  border: solid;
+  border-radius: 100px;
+  border-color: white;
+  border-width: 1.5px;
+  width: 10px !important;
+  height: 10px !important;
+}
+.icon-bar :hover {
+  transform: translate(2px);
+}
+.icon-bar p {
+  writing-mode: vertical-rl;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+/* Style the social media icons with color, if you want */
+/* .icon-bar a:hover {
+  background-color: #000;
+} */
